@@ -27,11 +27,12 @@
 
                      <div class="col-md-5 center-item">
                         <div class="input-group number-spinner">
-                           <button class="btn btn-default"><i class="fas fa-minus"></i></button>
-                           <input type="number" min="0" class="form-control text-center" value="1">
-                           <button class="btn btn-default"><i class="fas fa-plus"></i></button>
+                           <button id="minus-btn-phone" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                           <input id="quantity-input-phone" type="number" min="0" class="form-control text-center"
+                              value="1">
+                           <button id="plus-btn-phone" class="btn btn-default"><i class="fas fa-plus"></i></button>
                         </div>
-                        <h5>$1219</h5>
+                        <h5>$<span id="phone-total-price">1219</span></h5>
                         <img src="images/remove.png" alt="" class="remove-item">
                      </div>
                   </div>
@@ -45,12 +46,13 @@
                      </div>
                      <div class="col-md-5 center-item">
                         <div class="input-group number-spinner">
-                           <button class="btn btn-default"><i class="fas fa-minus"></i></button>
-                           <input type="number" min="0" class="form-control text-center" value="1">
-                           <button class="btn btn-default"><i class="fas fa-plus"></i></button>
+                           <button id="minus-btn-case" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                           <input id="quantity-input-case" type="number" min="0" class="form-control text-center"
+                              value="1">
+                           <button id="plus-btn-case" class="btn btn-default"><i class="fas fa-plus"></i></button>
 
                         </div>
-                        <h5>$59</h5>
+                        <h5>$<span id="case-total-price">59</span></h5>
                         <img src="images/remove.png" alt="" class="remove-item">
                      </div>
                   </div>
@@ -79,6 +81,7 @@
          </div>
       </div>
    </section>
+   <script src="app.js"></script>
 </body>
 
 </html>
